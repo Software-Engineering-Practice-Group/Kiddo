@@ -17,4 +17,4 @@
 #### 3. css/KiddoCss/log.css为所有组件使用的css样式，各组件的js文件中以import，调用组件时不必再次import
 ![image](https://user-images.githubusercontent.com/74357630/164910879-d36d4375-40e9-41db-ac47-c8ec1f30f043.png)
 #### 4. view没用到，只看components就好
-##有任何问题随时call我！一起加油(ง •_•)ง
+## 有任何问题随时call我！一起加油(ง •_•)ง

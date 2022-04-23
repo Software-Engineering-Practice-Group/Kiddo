@@ -2,7 +2,7 @@
 
 ## 关于第二次迭代合并react的注释：
 ### react版本的src在👇文件夹
-![image](https://user-images.githubusercontent.com/74357630/164910661-101849cf-294f-4f6c-a985-6a31bd928cce.png)
+![image](https://user-images.githubusercontent.com/74357630/164911778-e4c61c08-44b2-4d80-82bf-c77557391b54.png)
 
 #### 1. 使用说明：详见APP.js代码【其他.js文件中也有说明用的注释，请关注代码注释！】
 ![image](https://user-images.githubusercontent.com/74357630/164910925-47dc8363-f845-473a-89f8-abf3b0b6edba.png)

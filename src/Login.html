@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>登录</title>
+    <link href="/src/css/css.css" rel="stylesheet" type="text/css" />
+    <!-- <script src="/Public/pc/js/jquery-1.7.2.min.js"></script>
+    <script src="/Public/pc/js/html5zoo.js"></script>
+    <script src="/Public/pc/js/lovelygallery.js"></script>
+    <script src="/Public/pc/js/my-js.js"></script> -->
+</head>
+<body>
+<div id="box" style=" width:100%; height:100%;background-image:url(/src/img/background.jpg);">
+
+    <!-- <script src="/Public/Admin/Js/jquery-1.8.3.min.js"></script> -->
+    <!-- title -->
+    <div class="title-box">
+        <img src="/src/img/header-logo.png" />
+        <h1>牙科医院管理系统</h1>
+        <div></div>
+    </div>
+    <!-- 就医流程等 -->
+    <div class="min-box">
+        <div class="ghlc-box">
+            <a class="ghlc-min-01" href="/index.php/index/ghxz.html">
+                <div>挂号须知</div>
+            </a>
+            <a class="ghlc-min-02" href="/src/Login.html">
+                <div>登录/注册</div>
+            </a>
+            <a class="ghlc-min-03" href="/index.php/index/wsgh.html">
+                <div>网上挂号</div>
+            </a>
+            <a class="ghlc-min-04" href="/index.php/index/ghcx.html">
+                <div>个人中心</div>
+            </a>
+        </div>
+        <div class="ghxz-box">
+            <div class="ghxz-01">
+                <div></div>
+                <h1>登录</h1>
+            </div>
+            <form id="form1" name="form1" method="post" action="/src/Login.html">
+                <div class="ghxz-02">
+                    <div class="ghzc-01">
+                        <div class="ghzc-01-01">用户类型：</div>
+                        <ul>
+                            <li>
+                                <input id="ysq_type" name="usertype" type="radio" value="患者" class="input_radio"
+                                       onclick="document.getElementById('reset_psw').style.display='block';document.getElementById('register').style.display='block'"/>
+                                <label>患者</label>
+                            </li>
+                            <li>
+                                <input id="ysq_type" name="usertype" type="radio" value="医生" class="input_radio"
+                                       onclick="document.getElementById('reset_psw').style.display='none';document.getElementById('register').style.display='none'"/>
+                                <label>医生</label>
+                            </li>
+                            <li>
+                                <input id="ysq_type" name="usertype" type="radio" value="管理员" class="input_radio"
+                                       onclick="document.getElementById('reset_psw').style.display='none';document.getElementById('register').style.display='none'"/>
+                                <label>管理员</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="ghzc-01">
+                        <div class="ghzc-01-01">账号：</div>
+                        <input class="ghzc-01-02" name="txtTel" type="text" id="txtTel" maxlength="12" />
+                        <div class="ghzc-01-03" id="txtTel_lable"> *账号即为注册时您输入的手机号码</div>
+                    </div>
+                    <div class="ghzc-01">
+                        <div class="ghzc-01-01">密码：</div>
+                        <input class="ghzc-01-02" name="txtPwd" type="password" id="txtPwd" maxlength="15" />
+                        <div class="ghzc-01-03" id="txtPwd_lable"> *请填写您的密码</div>
+                        <br><br><br>
+                    </div>
+                    <div class="ghxz-02-btn">
+                        <input type="submit" name="Submit" value="提交">
+                        <br>
+                        <!-- id用于js做判断决定选择用户类型后是否显示该按钮 -->
+                        <a id="reset_psw" class="ghlc-min-02" href="/src/ResetPsw.html">忘记密码</a>
+                        <br>
+                        <a id="register" class="ghlc-min-02" href="/src/Register.html">注册</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- 底部 -->
+    <div class="bot-box">
+        <div class="bot-01">
+            <span>服务热线：(0377)-63200114</span>
+            <a href="https://beian.miit.gov.cn/#/Integrated/index">豫ICP备06001948号-1 </a>
+        </div>
+        <div class="bot-box-02">版权所有：上海交通大学软件工程原理&nbsp;&nbsp;&nbsp;&nbsp;网站设计：SEP</div>
+    </div>
+</div>
+<!-- <script src="/Public/js/validate.js"></script> -->
+
+</body>
+</html>

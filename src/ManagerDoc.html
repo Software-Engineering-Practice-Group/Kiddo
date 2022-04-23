@@ -1,0 +1,232 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>医生管理</title>
+    <link href="/src/css/css.css" rel="stylesheet" type="text/css" />
+    <!-- <script src="/Public/pc/js/jquery-1.7.2.min.js"></script>
+    <script src="/Public/pc/js/html5zoo.js"></script>
+    <script src="/Public/pc/js/lovelygallery.js"></script>
+    <script src="/Public/pc/js/my-js.js"></script> -->
+</head>
+<body>
+<div id="box" style=" width:100%; height:100%;background-image:url(/src/img/background.jpg);">
+    <div id="toubu">
+        <div id="toubu_1">
+            <p name="top">东川路职业技术学院附属牙科医院</p>
+            <a href="denglu.html">欢迎您：XXX</a>
+        </div>
+        <div id="toubu_2">
+            <ul>
+                <li id="toubu24"><a href="">手机公众号</a>
+                    <div></div>
+                </li>
+                <li id="toubu27">
+                    <a href="">退出登录</a>
+                    <div>
+                        <a href="">确认退出</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- <script src="/Public/Admin/Js/jquery-1.8.3.min.js"></script> -->
+    <!-- title -->
+    <div class="title-box">
+        <img src="/src/img/header-logo.png" />
+        <h1>牙科医院管理系统</h1>
+        <div></div>
+    </div>
+    <!-- 就医流程等 -->
+    <div class="min-box">
+        <div class="ghlc-box">
+            <a class="ghlc-min-01" href="/index.php/index/ghxz.html">
+                <div>诊室管理</div>
+            </a>
+            <a class="ghlc-min-02" href="/src/Login.html">
+                <div>就诊流程</div>
+            </a>
+            <a class="ghlc-min-03" href="/index.php/index/wsgh.html">
+                <div>患者管理</div>
+            </a>
+            <a class="ghlc-min-04" href="/index.php/index/ghcx.html">
+                <div>医生管理</div>
+            </a>
+        </div>
+        <div class="ghxz-box">
+<!--            <a class="ghxz-04" href="/src/ManagerDoc.html"><div></div><h1>医生管理</h1></a>-->
+            <a class="ghxz-01" href="/src/ManagerDep.html"><div></div><h1>科室管理...</h1></a>
+
+            <form name="form1" method="post" action="/src/ManagerDoc.html">
+                <div class="ghcx-01">
+                    <div class="ghcx-01-01">请输入医生账号：</div>
+                    <input class="ghcx-01-02" name="txtTel" type="text" id="txtTel" value=""/>
+                    <input class="ghcx-01-btn" type="submit" name="Submit" value="查询"/>
+                    <a class="ghcx-01-btn" href="/src/AddDoctor.html"><div>添加</div></a>
+                </div>
+
+                <div class="ghxz-02">
+                    <!-- 医生列表-->
+                    <table class="mail-box" border="1" cellspacing="0" bordercolor="#ebebeb" >
+                        <tr class="mail-title" style=" height:42px;">
+                            <th>医生姓名</th>
+                            <td>性别</td>
+                            <td>账号</td>
+                            <td>所属科室</td>
+                            <td>诊号剩余</td>
+                            <td>编辑</td>
+                        </tr>
+                        <tr class="mail-min" style=" height:35px;">
+                            <th>梁晓</th>
+                            <td>女</td>
+                            <td>13505351111</td>
+                            <td contenteditable="true">儿科</td>
+                            <td>20/30</td>
+                            <td><button>修改</button><button>删除</button></td>
+
+
+                        </tr>
+                        <tr class="mail-min" style=" height:35px;">
+                            <th>王娟</th>
+                            <td>女</td>
+                            <td>13505351111</td>
+                            <td>儿科</td>
+                            <td>20/30</td>
+                            <td><button>修改</button><button>删除</button></td>
+
+
+                        </tr>
+                        <tr class="mail-min" style=" height:35px;">
+                            <th>杨俊涛</th>
+                            <td>男</td>
+                            <td>13505351111</td>
+                            <td>儿科</td>
+                            <td>20/30</td>
+                            <td><button>修改</button><button>删除</button></td>
+
+
+                        </tr>
+                        <tr class="mail-min" style=" height:35px;">
+                            <th>司朝英</th>
+                            <td>女</td>
+                            <td>13505351111</td>
+                            <td>儿科</td>
+                            <td>20/30</td>
+                            <td><button>修改</button><button>删除</button></td>
+
+
+                        </tr>
+                        <tr class="mail-min" style=" height:35px;">
+                            <th>刘静雯</th>
+                            <td>女</td>
+                            <<td>13505351111</td>
+                            <td>儿科</td>
+                            <td>20/30</td>
+                            <td><button>修改</button><button>删除</button></td>
+
+
+                        </tr>
+                        <tr class="mail-min" style=" height:35px;">
+                            <th>李雪霞</th>
+                            <td>女</td>
+                            <td>13505351111</td>
+                            <td>儿科</td>
+                            <td>20/30</td>
+                            <td><button>修改</button><button>删除</button></td>
+
+
+                        </tr>
+                        <tr class="mail-min" style=" height:35px;">
+                            <th>杨凤英</th>
+                            <td>女</td>
+                            <td>13505351111</td>
+                            <td>儿科</td>
+                            <td>20/30</td>
+                            <td><button>修改</button><button>删除</button></td>
+                        </tr>
+                        <tr class="mail-min" style=" height:35px;">
+                            <th>杨凤英</th>
+                            <td>女</td>
+                            <td>13505351111</td>
+                            <td>儿科</td>
+                            <td>20/30</td>
+                            <td><button>修改</button><button>删除</button></td>
+                        </tr>
+                        <tr class="mail-min" style=" height:35px;">
+                            <th>杨凤英</th>
+                            <td>女</td>
+                            <td>13505351111</td>
+                            <td>儿科</td>
+                            <td>20/30</td>
+                            <td><button>修改</button><button>删除</button></td>
+                        </tr>
+                        <tr class="mail-min" style=" height:35px;">
+                            <th>杨凤英</th>
+                            <td>女</td>
+                            <td>13505351111</td>
+                            <td>儿科</td>
+                            <td>20/30</td>
+                            <td><button>修改</button><button>删除</button></td>
+                        </tr>
+                    </table>
+                    <div class="tpfy">
+                        <div class="page">
+                            <a class="first" href="/src/DoctorList/Page1.html">首页</a>
+                            <a class="prev" href="javascript:;">上一页</a>
+                            <span class="current">1</span><a class="num" href="/index.php/index/ghcx/p/2.html">2</a>
+                            <a class="num" href="/index.php/index/ghcx/p/3.html">3</a>
+                            <a class="num" href="/index.php/index/ghcx/p/4.html">4</a>
+                            <a class="num" href="/index.php/index/ghcx/p/5.html">5</a>
+                            <a class="next" href="/index.php/index/ghcx/p/2.html">下一页</a>
+                            <a class="end" href="/index.php/index/ghcx/p/1566.html">末页</a>
+                            <span class="rows">共 15658 条记录</span>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- 底部 -->
+    <div class="bot-box">
+        <div class="bot-01">
+            <span>服务热线：(0377)-63200114</span>
+            <a href="https://beian.miit.gov.cn/#/Integrated/index">豫ICP备06001948号-1 </a>
+        </div>
+        <div class="bot-box-02">版权所有：上海交通大学软件工程原理&nbsp;&nbsp;&nbsp;&nbsp;网站设计：SEP</div>
+    </div>
+</div>
+<!--
+<script type="text/javascript">
+    $(".cancel_order").on('click', function(){
+        var _this = this;
+        var password = prompt("请输入你的密码", "");
+        if (!password) {
+            alert('请输入你的密码!');
+            return false;
+        }
+        var order_id = $(this).data('order_id');
+        order_id = order_id.replace('order_id:', '', order_id);
+        var card = $("#txtCard").val();
+        var url = $(this).data('cancel_url');
+        $.ajax({
+            url: url,
+            type: "POST",
+            data: {password: password, card: card, order_id: order_id},
+            dataType: "json",
+            success: function(data){
+                console.log(data);
+                if (data.code != 0) {
+                    alert(data.msg);
+                } else {
+                    alert(data.msg);
+                    $(_this).parents('tr.mail-min').remove();
+                }
+            }
+        });
+    });
+</script>
+-->
+</body>
+</html>
